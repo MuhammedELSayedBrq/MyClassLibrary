@@ -8,6 +8,8 @@ namespace MyClassLibrary
 {
     public class operations
     {
+
+        //To build DLL file you press "Build" and "Build Solution"
         float num1,num2;
         public operations(float x,float y)
         {
