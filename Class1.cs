@@ -34,7 +34,8 @@ namespace MyClassLibrary
         }
         public string AllOperations()
         {
-            string returnValue = "Sum = " + sum() + "\n";
+            string returnValue = "The Two numbers are "+num1 + " and "+num2 +" \n";
+            returnValue += "Sum = " + sum() + "\n";
             returnValue += "Sub = " + sub() + "\n";
             returnValue += "Multiply = " + mul() + "\n";
             returnValue += "Divide = " + div() + "\n";
