@@ -8,14 +8,36 @@ namespace MyClassLibrary
 {
     public class operations
     {
-        public int sum(int x, int y)
+        float num1,num2;
+        public operations(float x,float y)
         {
-            return x + y;
+            num1 = x;
+            num2 = y;
         }
-        public int sum(int x, int y)
+        public float sum()
         {
-            return x - y;
+            return num1 + num2;
         }
+        public float sub()
+        {
+            return num1 - num2;
+        } 
+        public float mul()
+        {
+            return num1 * num2;
+        } 
+        public float div()
+        {
+            return num1 / num2;
+        }
+        public string AllOperations()
+        {
+            string returnValue = "Sum = " + sum() + "\n";
+            returnValue += "Sub = " + sub() + "\n";
+            returnValue += "Multiply = " + mul() + "\n";
+            returnValue += "Divide = " + div() + "\n";
 
+            return returnValue;
+        }
     }
 }
